@@ -1,3 +1,7 @@
+/**
+ * Création d'un dégradé de couleurs
+ * @author Yanis Laurençont
+ */
 public class Gradient {
     public static void main(String[] args) {
         int largeur = 200;
