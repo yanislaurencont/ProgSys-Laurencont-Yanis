@@ -5,7 +5,7 @@
  */
 public class TestBin {
     public static void main(String[] args) {
-        // Création d'une image 3 pixels de large, 2 pixels de haut
+        // Création d'une image de 3 pixels de large, 2 pixels de haut
         Image img = new Image(3, 2);
 
         // Première ligne : rouge, vert, bleu
