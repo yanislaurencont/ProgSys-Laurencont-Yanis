@@ -1,6 +1,10 @@
 import java.io.FileWriter;
 import java.io.IOException;
 
+/**
+ * Création d'une image
+ * @author Yanis Laurençont
+ */
 public class Image {
     private int width;
     private int height;
@@ -30,14 +34,23 @@ public class Image {
         }
     }
 
+    /**
+     * @return pixels[y][x][0] l'intensité du rouge à la position donnée
+     */
     public int getRed(int x, int y) {
         return pixels[y][x][0];
     }
 
+    /**
+     * @return pixels[y][x][0] l'intensité du vert à la position donnée
+     */
     public int getGreen(int x, int y) {
         return pixels[y][x][1];
     }
 
+    /**
+     * @return pixels[y][x][0] l'intensité du bleu à la position donnée
+     */
     public int getBlue(int x, int y) {
         return pixels[y][x][2];
     }
