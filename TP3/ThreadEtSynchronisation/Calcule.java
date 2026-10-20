@@ -12,8 +12,8 @@ public class Calcule extends Thread {
 
     @Override
     public void run() {
-        // Implémenter le calcul intensif
-        // Même logique que dans la boucle interne de CalculSequentiel
+        // Implémenter le calcul intensif.
+        // Même logique que dans la boucle interne de CalculSequentiel.
         long resultat = 0;
         for (int indice = 0; indice < multiplicateur; indice++) {
             resultat += valeur * valeur + valeur;
