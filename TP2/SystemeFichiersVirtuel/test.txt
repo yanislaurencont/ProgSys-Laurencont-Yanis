@@ -1,0 +1,2 @@
+Bonjour le VFS !
+Ligne 2 avec accents : éàü €
