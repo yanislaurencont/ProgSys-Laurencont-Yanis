@@ -13,7 +13,6 @@ public class CompteurDangereux {
         @Override
         public void run() {
             for (int i = 0; i < nombreIncrements; i++) {
-                // TODO: Expliquer pourquoi cette ligne pose problème
                 compteurGlobal++;  // RACE CONDITION ICI !
             }
             System.out.println(nom + " terminé. Compteur vu : " + compteurGlobal);
